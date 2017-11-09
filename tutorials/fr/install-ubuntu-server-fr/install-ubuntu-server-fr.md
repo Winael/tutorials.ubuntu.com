@@ -1,59 +1,59 @@
 ---
-id: tutorial-install-ubuntu-server
-summary: Turn your PC into a powerful server, capable of delivering anything from file sharing and local backup, to fully fledged web sites and beyond.
+id: tutorial-install-ubuntu-server-fr
+summary: Transformez votre PC en un serveur puissant, capable de fournir n'importe quoi, du partage de fichiers et sauvegardes locales jusqu'à des sites Web  complets et même au-delà.
 categories: server
+language: fr
 tags: tutorial,installation,ubuntu,server,Ubuntu 16.04 LTS
 difficulty: 2
 status: Published
-published: 2017-07-07
+translator: Winael
+published: 2017-10-31
 
 ---
 
 # Install Ubuntu Server
 
-## Overview
-Duration: 0:01
+## Vue d'ensemble
+Durée : 0:01
 
 Positive
-: Switch language: [FR](tutorial-install-ubuntu-server-fr) | EN
+: Changer la langue : **FR** | [EN](tutorial-install-ubuntu-server)
 
-Ubuntu Server is Ubuntu tailored for networks and services, and it's just as capable sharing files on your home network as it is running within a Hadoop cluster.
+Ubuntu Server est conçu sur mesure pour les réseaux et les services, et il est tout aussi capable de partager des fichiers sur votre réseau domestique qu'il fonctionne dans un cluster Hadoop.
 
-Unlike the installation of Ubuntu Desktop, Ubuntu Server does not include a graphical installation program. Instead, it uses a console menu-based process. If you'd rather install the desktop version, take a look at our [Install Ubuntu desktop](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop) tutorial.
+Contrairement à l'installation d'Ubuntu Desktop, Ubuntu Server n'inclut pas de programme d'installation graphique. Il utilise à la place, un procédé basé sur le menu de la console. Si vous préférez installer la version de bureau, jetez un coup d'oeil à notre tutoriel [Installer Ubuntu desktop](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop).
 
-This guide will provide an overview of the installation from either a DVD or a USB flash drive, suitable for anyone with an interest in running their own server. For a more detailed guide on Ubuntu Server's capabilities and its configuration, take a look at our [Ubuntu Server help documentation](https://help.ubuntu.com/lts/serverguide/installation.html
-).
+Ce guide vous donnera un aperçu de l'installation à partir d'un DVD ou d'une clé USB, convenant à toute personne intéressée par l'exploitation de son propre serveur. Pour un guide plus détaillé sur les capacités d'Ubuntu Server et sa configuration, consultez notre [l'assistance documentaire d'Ubuntu Server](https://help.ubuntu.com/lts/serverguide/installation.html).
 
 ![screenshot](https://assets.ubuntu.com/v1/fcc62c28-server-welcome.png)
 
-## Requirements
-Duration: 0:01
+## Pré-requis
+Durée : 0:01
 
-You'll need to consider the following before starting the installation:
+Vous devez tenir compte des points suivants avant de commencer l'installation :
 
-* Ensure you have at least 2GB of free storage space. 
-* Have access to either a DVD or a USB flash drive containing the version of Ubuntu Server you want
-  to install.
-* If you're going to install Ubuntu Server alongside data you wish to keep, ensure you have a recent backup.
+* Assurez-vous d'avoir au moins 2 Go d'espace de stockage disponible. 
+* Avoir accès à un DVD ou une clé USB contenant la version d'Ubuntu Server que vous désirez installer.
+* Si vous devez installer Ubuntu Server en parallèle avec les données que vous souhaitez conserver, assurez-vous d'en avoir une sauvegarde récente.
 
-See [Installation/System Requirements](https://help.ubuntu.com/community/Installation/SystemRequirements#Ubuntu_Server_.28CLI.29_Installation) for more specific details on hardware requirements. We also have [several tutorials](/) that explain how to create an Ubuntu DVD or USB flash drive.
+Voir [Installation/Pré-requis Système](https://help.ubuntu.com/community/Installation/SystemRequirements#Ubuntu_Server_.28CLI.29_Installation) pour plus de détails sur les configurations matérielles requises. Nous avons également [plusieurs tutoriels](/) qui expliquent comment créer un DVD ou une clé USB Ubuntu.
 
 
-## Boot from DVD
-Duration: 0:02
+## Démarrage à partir du DVD
+Durée : 0:02
 
-To trigger the installation process, perform the following:
+Pour déclencher le processus d'installation, procédez comme suit :
 
-1. Put the Ubuntu DVD into your DVD drive.
-1. Restart your computer.
+1. Placez le DVD Ubuntu dans votre lecteur DVD.
+2. Redémarrez votre ordinateur.
 
-A few moments later, a large 'Language' menu will appear and selecting your language will take you to the boot menu.
+Quelques instants plus tard, un grand menu 'Langue' apparaît où la sélection de votre langue vous amènera au menu de démarrage.
 
 ![screenshot](https://assets.ubuntu.com/v1/87351452-server-language-select.png)
 
-If you don’t get this menu, read the [booting from the DVD guide](https://help.ubuntu.com/community/BootFromCD?_ga=2.102380610.2115462233.1496186978-1155966827.1485186360) for more information.
+Si vous n'obtenez pas ce menu, lisez le [guide de démarrage à partir du DVD](https://help.ubuntu.com/community/BootFromCD?_ga=2.102380610.2115462233.1496186978-1155966827.1485186360) pour plus d'informations.
 
-## Boot from USB flash drive
+## Démarrage à partir d'une clé USB
 Duration: 0:02
 
 Most computers will boot from USB automatically. Simply insert the USB flash drive and either power on your computer or restart it. You should see the same language menu we saw in the previous 'Install from DVD' step, followed by the boot menu.
